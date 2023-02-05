@@ -82,6 +82,7 @@ main a.externo::after{
 h1{
     font-family: idroid;
     color: darkgreen;
+    text-align: left;
 }
 h2{
     font-family: idroid;
