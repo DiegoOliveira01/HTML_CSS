@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Site De Exemplo</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#"> Opção 1 </a></li>
+                <li><a href="#"> Opção 2 </a></li>
+                <li><a href="#"> Opção 3 </a></li>
+                <li><a href="#"> Opção 4 </a></li>
+                <li><a href="#"> Opção 5 </a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Intel finaliza especificações dos processos de produção de nós de 1.8 nm e 2 nm</h2>
+            <h3>A linha 20A e 18A da Intel serão lançadas em 2024, com todo o processo de desenvolvimento completado pela equipe da Intel</h3>
+            <p>A Intel finalizou a etapa de desenvolvimento das suas linhas 20A e 18A, que trarão as classes 2.0nm e 1.8nm respectivamente. O presidente da divisão chinesa da empresa, Wang Rui, afirmou em evento que todo o processo foi completado e agora eles trabalharão na produção dos nós para os futuros componentes que serão uma das principais forças deles em um futuro próximo. O plano da companhia é usar a tecnologia 20A e 18A para os seus próprios produtos, liberando a venda de chips baseados nessa nova linha para os clientes da Intel Foundry Services. Porém, isso deve demorar a ocorrer - já que o processo de desenvolvimento só estabeleceu as especificações, componentes, materiais necessários e o alvo de performance dos itens. Até a sua criação física e produção em massa, é outro passo que não está tão perto de ocorrer. De acordo com o seu planejamento, 2024 será o ano que veremos isso tudo em ação. Enquanto a versão de 2.0nm está prevista para o primeiro semestre do período, a de 1.8nm está agendada para chegar no segundo semestre. Este último será o ponto mais avançado que a tecnologia chegará, de acordo com os projetos que estão em andamento, ultrapassando de vez suas concorrentes diretas: TSMC e a Samsung Foundry. </p>
+            <p>A fabricação da tecnologia Intel 20A vai se basear nos transistores RibbonFET e apoiar no suporte traseiro de energia. Muitos consideram o movimento arriscado, já que usar uma nova estrutura com o RibbonFET, implantar uma nova forma de energização e reduzir o tamanho dos componentes e metais poderia ser desastroso, porém aparentemente eles encontraram uma fórmula de fazer isso dar certo e seguirão com seus planos adiante. Já a linha 18A continuará refinando o que eles aprenderam com o RibbonFET, além da tecnologia da PowerVia, diminuindo ainda mais o tamanho de suas peças. O plano é utilizar o scanner da ASML Twinscan NXE de 0.33 NA e a  padronização dupla EUV. A ideia original era se apoiar no scanner ASML Twinscan NXE de 0.55 NA, porém como decidiram agilizar o processo, terão de abusar da anterior para chegar aos resultados que desejam. O chefe-executivo da Intel, Pat Gelsinger, está confiante que isso renderá excelentes frutos para a sua empresa. "Temos um mapeamento de etapas ativo, compromissado com sete dos 10 maiores clientes da nossa fundição. Isso vem acompanhado de um crescimento consistente para a inclusão de outros 43 clientes em potencial e chips de parceiros do nosso ecossistema". Para Gelsinger, tudo está em andamento. "Continuamos a progredir com o Intel 18A, já compartilhamos a versão de engenharia do kit de design de processo 0.5 com nossos principais clientes e esperamos ter uma versão final de produção nas</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
